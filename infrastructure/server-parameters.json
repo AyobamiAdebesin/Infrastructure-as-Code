@@ -1,18 +1,10 @@
 [
-    {
-      "ParameterKey": "EnvironmentName",
-      "ParameterValue": "AyobamiUdacityProject"
-    },
-    {
-      "ParameterKey": "S3CodeBucketName",
-      "ParameterValue": "udacity-demo-1"
-    },
-    {
-      "ParameterKey": "S3CodeArchive",
-      "ParameterValue": "udacity.zip"
-    },
-    {
-      "ParameterKey": "DistributionId",
-      "ParameterValue": "E1Z4TEZ695DR6O"
-    }
-  ]
+	{
+		"ParameterKey": "Prefix",
+		"ParameterValue": "Udacity"
+	},
+	{
+		"ParameterKey": "RootInstanceProfile",
+		"ParameterValue": "arn:aws:iam::641109144570:user/ayobami_cloud_dev"
+	}
+]
